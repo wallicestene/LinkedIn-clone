@@ -28,7 +28,7 @@ useEffect(() =>{
       dispatch(logout())
     }
   })
-},[])
+},[dispatch])
   return (
       <div className='app'>
         <Header />
